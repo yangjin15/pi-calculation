@@ -10,10 +10,6 @@
 - Pthread多线程版本
 - OpenMP并行计算版本
 
-使用数值积分方法：
-```
-∫_0^1▒〖4.0/((1+x^2))dx〗= π
-```
 
 ## 功能特点
 
@@ -33,7 +29,6 @@
 ## 安装依赖
 
 ```bash
-# Fedora/RHEL系统
 sudo dnf install -y gcc openmpi openmpi-devel python3-numpy python3-matplotlib
 
 # 设置MPI环境变量
@@ -87,7 +82,3 @@ pi_calculation/
 ## 实验结果
 
 性能对比图将保存在 `results/performance_comparison.png`
-
-## License
-
-MIT License 
